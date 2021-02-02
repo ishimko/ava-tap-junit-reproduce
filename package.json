@@ -1,0 +1,15 @@
+{
+  "name": "ava-tap-junit-reproduce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava --tap > tap.txt; cat tap.txt; tap-junit -p -i tap.txt -o report"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "3.15.0",
+    "tap-junit": "4.1.0"
+  }
+}
